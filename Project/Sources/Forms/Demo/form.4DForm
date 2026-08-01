@@ -30,7 +30,7 @@
 					"height": 30,
 					"fontSize": 22,
 					"fontWeight": "bold",
-					"stroke": "#2B3440"
+					"stroke": "automatic"
 				},
 				"subtitle": {
 					"type": "text",
@@ -216,7 +216,7 @@
 					"fontSize": 26,
 					"fontWeight": "bold",
 					"textAlign": "center",
-					"stroke": "#2B3440"
+					"stroke": "automatic"
 				},
 				"hint": {
 					"type": "text",

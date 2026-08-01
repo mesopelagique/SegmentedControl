@@ -1,0 +1,55 @@
+{
+	"_method_": {
+		"PLAY_SegmentedControl": {
+			"Syntax": "**PLAY_SegmentedControl**()",
+			"Params": [],
+			"Summary": ""
+		}
+	},
+	"cs.seg": {
+		"SegmentedControl": {
+			"new()": {
+				"Syntax": "**.new**( *transition* : cs.hero.ElementTransition )",
+				"Params": [
+					[
+						"transition",
+						"cs.hero.ElementTransition",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		}
+	},
+	"SegmentedControl": {
+		"select()": {
+			"Syntax": "**.select**( *i* : Integer )",
+			"Params": [
+				[
+					"i",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"dimInk": {
+			"Syntax": "dimInk : Integer"
+		},
+		"selInk": {
+			"Syntax": "selInk : Integer"
+		},
+		"pad": {
+			"Syntax": "pad : Integer"
+		},
+		"selected": {
+			"Syntax": "selected : Integer"
+		},
+		"count": {
+			"Syntax": "count : Integer"
+		},
+		"transition": {
+			"Syntax": "transition : cs.hero.ElementTransition"
+		}
+	}
+}

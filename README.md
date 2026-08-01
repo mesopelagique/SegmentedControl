@@ -27,7 +27,7 @@ This is the flagship `share()` / matchedGeometryEffect idea in a plain business 
 
 Each segment is three form objects sharing a box: a hidden marker `seg_<i>` (the geometry the pill flies to), a label `lbl_<i>`, and a transparent `segbtn_<i>` for the click — plain `onClick`, no coordinate maths. Label recolouring reads each label's current background and rewrites only the ink, so a transparent label never turns opaque over the pill.
 
-## `cs.SegmentedControl`
+## `cs.seg.SegmentedControl`
 
 | Function | Action |
 |:-|:-|
