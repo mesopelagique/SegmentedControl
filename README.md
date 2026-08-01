@@ -2,7 +2,7 @@
 
 **An animated segmented picker for 4D forms** — the indicator glides to the chosen segment. Built on [Hero](https://github.com/mesopelagique/Hero) (`cs.hero`).
 
-<p align="center"><img src="Project/Sources/Forms/Demo/form.png" width="480" alt="The SegmentedControl demo" /></p>
+<p align="center"><img src="Documentation/segmentedcontrol.gif" width="480" alt="The SegmentedControl demo" /></p>
 
 ## Run it
 
