@@ -1,0 +1,235 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onTimer",
+		"onClick",
+		"onUnload"
+	],
+	"windowTitle": "SegmentedControl — powered by cs.hero",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"title": {
+					"type": "text",
+					"text": "SegmentedControl",
+					"left": 20,
+					"top": 20,
+					"width": 400,
+					"height": 30,
+					"fontSize": 22,
+					"fontWeight": "bold",
+					"stroke": "#2B3440"
+				},
+				"subtitle": {
+					"type": "text",
+					"text": "The indicator glides to the chosen segment — matchedGeometry.",
+					"left": 20,
+					"top": 52,
+					"width": 470,
+					"height": 18,
+					"fontSize": 12,
+					"stroke": "#8A929C"
+				},
+				"bar": {
+					"type": "rectangle",
+					"left": 40,
+					"top": 96,
+					"width": 370,
+					"height": 44,
+					"borderRadius": 22,
+					"fill": "#E7EBF0",
+					"stroke": "#E7EBF0"
+				},
+				"pill": {
+					"type": "rectangle",
+					"left": 44,
+					"top": 100,
+					"width": 78,
+					"height": 36,
+					"borderRadius": 18,
+					"fill": "#FFFFFF",
+					"stroke": "#D3DAE3"
+				},
+				"seg_1": {
+					"type": "rectangle",
+					"left": 44,
+					"top": 100,
+					"width": 78,
+					"height": 36,
+					"fill": "transparent",
+					"stroke": "transparent",
+					"visibility": "hidden"
+				},
+				"lbl_1": {
+					"type": "text",
+					"text": "Day",
+					"left": 44,
+					"top": 109,
+					"width": 78,
+					"height": 20,
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"stroke": "#1E2A38"
+				},
+				"segbtn_1": {
+					"type": "button",
+					"text": "",
+					"left": 44,
+					"top": 96,
+					"width": 78,
+					"height": 44,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"seg_2": {
+					"type": "rectangle",
+					"left": 122,
+					"top": 100,
+					"width": 92,
+					"height": 36,
+					"fill": "transparent",
+					"stroke": "transparent",
+					"visibility": "hidden"
+				},
+				"lbl_2": {
+					"type": "text",
+					"text": "Week",
+					"left": 122,
+					"top": 109,
+					"width": 92,
+					"height": 20,
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"stroke": "#6B7480"
+				},
+				"segbtn_2": {
+					"type": "button",
+					"text": "",
+					"left": 122,
+					"top": 96,
+					"width": 92,
+					"height": 44,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"seg_3": {
+					"type": "rectangle",
+					"left": 214,
+					"top": 100,
+					"width": 104,
+					"height": 36,
+					"fill": "transparent",
+					"stroke": "transparent",
+					"visibility": "hidden"
+				},
+				"lbl_3": {
+					"type": "text",
+					"text": "Month",
+					"left": 214,
+					"top": 109,
+					"width": 104,
+					"height": 20,
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"stroke": "#6B7480"
+				},
+				"segbtn_3": {
+					"type": "button",
+					"text": "",
+					"left": 214,
+					"top": 96,
+					"width": 104,
+					"height": 44,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"seg_4": {
+					"type": "rectangle",
+					"left": 318,
+					"top": 100,
+					"width": 88,
+					"height": 36,
+					"fill": "transparent",
+					"stroke": "transparent",
+					"visibility": "hidden"
+				},
+				"lbl_4": {
+					"type": "text",
+					"text": "Year",
+					"left": 318,
+					"top": 109,
+					"width": 88,
+					"height": 20,
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"stroke": "#6B7480"
+				},
+				"segbtn_4": {
+					"type": "button",
+					"text": "",
+					"left": 318,
+					"top": 96,
+					"width": 88,
+					"height": 44,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"content": {
+					"type": "text",
+					"text": "Day",
+					"left": 40,
+					"top": 180,
+					"width": 440,
+					"height": 40,
+					"fontSize": 26,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"stroke": "#2B3440"
+				},
+				"hint": {
+					"type": "text",
+					"text": "One pill, tweened to each segment's own box (widths differ).",
+					"left": 20,
+					"top": 274,
+					"width": 480,
+					"height": 16,
+					"fontSize": 10,
+					"stroke": "#8A929C"
+				}
+			}
+		}
+	],
+	"method": "method.4dm"
+}
